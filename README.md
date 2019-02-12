@@ -1,3 +1,1 @@
-# Sunbird-Intl
-
-Documentation
+# Sunbird-Intl Documentation
