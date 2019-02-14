@@ -71,11 +71,13 @@ Based on user responsibilities, rights are provided to:
 Specific users are granted administration rights to manage users or organization profile creation, onboarding, deletion, passwords, and site look-and-feel customization.Based on user responsibilities, rights are provided.<br>
 
 <br/>
-- Handling Plagiarism <br>
+- Handling Plagiarism   <br>
+
  Currently the plagiarism is not been in action with the following version relaesed.<br>
 
 <br/>
-- Constraints like maximum size of the content allowed and how to increase that?<br>
+- Content Contraints  <br>
+
 The platform supports:<br>
 
 Content / File type |Maximum File Size (for single file)
@@ -89,11 +91,13 @@ Video (.mp4, webm) | 25 MB
 
 But this size is just a backend configuration we can change it easily.<br>
 <br/>
-- Content export options ? <br>
-<u> Answer</u> : There is a script by running we can export our content from global enviroment to local enviroment. but this                   is a occasional activity and this option is not availaible to every user.<br>
+- Content Exporting <br>
+
+There is a script by running we can export our content from global enviroment to local enviroment. but this                   is a occasional activity and this option is not availaible to every user.<br>
 
 <br/>
 - Content (Bulk, Question, Assessment Authoring)<br>
+
 
 To bulk upload content,
 
