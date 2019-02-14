@@ -1,7 +1,5 @@
 
-# Sunbird-Intl Documentation
-
-<center> SUNBIRD INTERNATIONAL QUERIES.</center>
+<center> Sunbird-Intl Documentation</center>
 
 
 ## What is Sunbird??
@@ -28,11 +26,12 @@ Sunbird is a societal learning platform built for cloud/mobile native environmen
 | An **Announcement Sender** creates and sends announcements. The Announcement feature allows to send system wide messages to a target audience| No | No | No | ✔️  <a href="features-documentation/userrole/#role-specific-responsibilites"> read more</a>
 | A **Content Creator** is a registered user with permission to create content | ✔️ (Collection, Course, Study Material, Lesson Plan) | No | ✔️ | No
 
-
+<br/><br/>
 - Question : Content publishing/workflow states???<br>
 <u>Answer</u> : ```sequence
 Draft->Review->Live/unlisted->flag(optional)```
 
+<br/><br/>
 - Question : Content authoring in collaboration. How it works? Can two users open the same content at the same time and edit?<br>
  <u>Answer</u> :  This Feature is still in devlopement Stage there is an Api call to Lock the content (params: userId,resourceId) and after making api call the content is locked for minimum 10 mins. and for content collaboration if two user(A,B) engaged in creating content then A will see his content in draft tab and B's content in collaboration tab.
 
@@ -52,6 +51,7 @@ Draft->Review->Live/unlisted->flag(optional)```
     URLs of YouTube videos and other files
     URLs of other externally hosted content``
     
+<br/><br/>
 - Question : How to tag content? <br>
 <u> Answer </u> : In a portal there is a wokspace section. so while creating resource we can specify the keywords in    `Keyword` field ,the keywords must be the words which are related to the resource. <br>
 - Question : How content gets flagged as inappropriate etc?<br>
@@ -67,9 +67,11 @@ Based on user responsibilities, rights are provided to:
 
 Specific users are granted administration rights to manage users or organization profile creation, onboarding, deletion, passwords, and site look-and-feel customization.Based on user responsibilities, rights are provided.<br>
 
+<br/>
 - Question : How the plagiarism works? <br>
 <u> Answer </u> : Currently the plagiarism is not been in action with the following version relaesed.<br>
 
+<br/><br/>
 - Question : Constraints like maximum size of the content allowed and how to increase that?<br>
 <u> Answer </u> :The platform supports:<br>
 
@@ -83,9 +85,11 @@ Video (.mp4, webm) | 25 MB
 .pdf | 25 MB <br>
 
 But this size is just a backend configuration we can change it easily.<br>
+<br/>
 - Question : Content export options ? <br>
 <u> Answer</u> : There is a script by running we can export our content from global enviroment to local enviroment. but this                   is a occasional activity and this option is not availaible to every user.<br>
 
+<br/>
 - Question : Bulk authoring of content – How is it done? How to author questions? How to author assessments?<br>
 <u> Answer </u> : 
 To bulk upload content,
@@ -121,6 +125,7 @@ To bulk upload content,
 14. On accepting the content, the reviewer clicks Publish, to make the content live on the platform<br>
 and for authoring questions(mcq's) we can easily do that from the ui itself<br>
 
+<br/>
 - Question : ML based content curation – How it works?<br>
 <u> Answer </u> : We can tag content with specific keywords the techniques used is Deep Learning ,LSTM(Long short term memory) which give the respective content as a result  after performing any query search relaveant to any subject. and this model uses reinforcement learning which takes feedback of the result and improves the model for better search  results.<br> 
 - Question :  How to generate QR codes. How to edit QR codes or DIAL codes <br/>
@@ -128,7 +133,7 @@ and for authoring questions(mcq's) we can easily do that from the ui itself<br>
 Use APIs to -<br/> ```Create publisher>Generate dial code>Update dial code and publisher>Publish dial code>Link dial code ```
 
 
-    <br/><br/>
+    <br/>
 - Question : Number of plugins available <br/>
 <u>Answer: The plugins available currently are 66 </u>  
 
