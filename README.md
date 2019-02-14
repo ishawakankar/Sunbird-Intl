@@ -40,7 +40,7 @@ Draft->Review->Live/Unlisted->Flag(optional)```
 - Types of content supported<br/>
 
 ```
-    Video (.mp4, .webm) <br/>
+    Video (.mp4, .webm)
     HTML zip
     ECML (created using the inbuilt content editor)
     EPUB
