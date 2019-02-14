@@ -2,15 +2,15 @@
 <center> Sunbird-Intl Documentation</center>
 
 
-## What is Sunbird??
+## What is Sunbird?
 
 Sunbird is a societal learning platform built for cloud/mobile native environments and meant to address teaching and learning use cases.Multiple organizations can exist independently as tenants on the platform and users of these organizations can access the platform via mobile devices, laptops and desktops.
 
-## Sunbird.
+## Sunbird
 
 - Types of Users:<br/>
     
-         				 User Roles and Respective Responsibilities
+         			User Roles and Respective Responsibilities
 
 |  User Role    | Content Creation | Review, Reject , & Publish | Upload Content | Other Actions |
 |-------------------|---------------------|---------------------|-------------------------|-----------------|
