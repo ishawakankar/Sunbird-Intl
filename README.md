@@ -6,11 +6,10 @@
 
 Sunbird is a societal learning platform built for cloud/mobile native environments and meant to address teaching and learning use cases.Multiple organizations can exist independently as tenants on the platform and users of these organizations can access the platform via mobile devices, laptops and desktops.
 
-## Common Queries.
+## Sunbird.
 
-- Question:  Roles of content editor or content service (Content creator, reviewer etc.) and what actions those roles can do?
-
- <u>Answer</u>:    
+- Types of Users:<br/>
+    
           <center>User Roles and Respective Responsibilities</center>
 
 |  User Role    | Content Creation | Review, Reject , & Publish | Upload Content | Other Actions |
@@ -27,9 +26,10 @@ Sunbird is a societal learning platform built for cloud/mobile native environmen
 | A **Content Creator** is a registered user with permission to create content | ✔️ (Collection, Course, Study Material, Lesson Plan) | No | ✔️ | No
 
 <br/><br/>
-- Question : Content publishing/workflow states???<br>
-<u>Answer</u> : ```sequence
-Draft->Review->Live/unlisted->flag(optional)```
+- Content Publishing and Workflow States<br>
+ ```sequence
+Draft->Review->Live/Unlisted->Flag(optional)```
+```
 
 <br/><br/>
 - Question : Content authoring in collaboration. How it works? Can two users open the same content at the same time and edit?<br>
@@ -37,10 +37,10 @@ Draft->Review->Live/unlisted->flag(optional)```
 
 
 <br/><br/>
-- Question : Types of content supported<br/>
-<u>Answer:</u>
+- Types of content supported<br/>
 
-``  Video (.mp4, .webm)
+
+    Video (.mp4, .webm)
     HTML zip
     ECML (created using the inbuilt content editor)
     EPUB
@@ -49,15 +49,18 @@ Draft->Review->Live/unlisted->flag(optional)```
     Images (.jpeg, .png)
     Document format (.pdf)
     URLs of YouTube videos and other files
-    URLs of other externally hosted content``
+    URLs of other externally hosted content
+    
     
 <br/><br/>
-- Question : How to tag content? <br>
-<u> Answer </u> : In a portal there is a wokspace section. so while creating resource we can specify the keywords in    `Keyword` field ,the keywords must be the words which are related to the resource. <br>
-- Question : How content gets flagged as inappropriate etc?<br>
-<u> Answer </u> : In a content lifecycle we have a flag as a staus in which if a content is inappropriate ,the project manager  can flag that content. after that content will dissappear.<br>
-- Question : Permissions control? <br>
-<u> Answer </u> : 
+- Tagging content <br>
+ In a portal there is a wokspace section. so while creating resource we can specify the keywords in    `Keyword` field ,the keywords must be the words which are related to the resource. <br><br/>
+ 
+- Flagging Content<br>
+In a content lifecycle we have a flag as a staus in which if a content is inappropriate ,the project manager  can flag that content. after that content will dissappear.<br><br/>
+
+- Permissions control <br>
+
 Based on user responsibilities, rights are provided to: 
 
 - create 
@@ -68,12 +71,12 @@ Based on user responsibilities, rights are provided to:
 Specific users are granted administration rights to manage users or organization profile creation, onboarding, deletion, passwords, and site look-and-feel customization.Based on user responsibilities, rights are provided.<br>
 
 <br/>
-- Question : How the plagiarism works? <br>
-<u> Answer </u> : Currently the plagiarism is not been in action with the following version relaesed.<br>
+- Handling Plagiarism <br>
+ Currently the plagiarism is not been in action with the following version relaesed.<br>
 
-<br/><br/>
-- Question : Constraints like maximum size of the content allowed and how to increase that?<br>
-<u> Answer </u> :The platform supports:<br>
+<br/>
+- Constraints like maximum size of the content allowed and how to increase that?<br>
+The platform supports:<br>
 
 Content / File type |Maximum File Size (for single file)
 --------------------|-----------------------------------
@@ -86,12 +89,12 @@ Video (.mp4, webm) | 25 MB
 
 But this size is just a backend configuration we can change it easily.<br>
 <br/>
-- Question : Content export options ? <br>
+- Content export options ? <br>
 <u> Answer</u> : There is a script by running we can export our content from global enviroment to local enviroment. but this                   is a occasional activity and this option is not availaible to every user.<br>
 
 <br/>
-- Question : Bulk authoring of content – How is it done? How to author questions? How to author assessments?<br>
-<u> Answer </u> : 
+- Content (Bulk, Question, Assessment Authoring)<br>
+
 To bulk upload content,
 
 1. Send a mail to info@sunbird.org, with the subject as  request to bulk upload 
@@ -126,26 +129,27 @@ To bulk upload content,
 and for authoring questions(mcq's) we can easily do that from the ui itself<br>
 
 <br/>
-- Question : ML based content curation – How it works?<br>
-<u> Answer </u> : We can tag content with specific keywords the techniques used is Deep Learning ,LSTM(Long short term memory) which give the respective content as a result  after performing any query search relaveant to any subject. and this model uses reinforcement learning which takes feedback of the result and improves the model for better search  results.<br> 
-- Question :  How to generate QR codes. How to edit QR codes or DIAL codes <br/>
-<u>Answer:</u>  Dial code creation require API access. Ask the team to enable access to your api-key. 
+- ML based content curation<br>
+We can tag content with specific keywords the techniques used is Deep Learning ,LSTM(Long short term memory) which give the respective content as a result  after performing any query search relaveant to any subject. and this model uses reinforcement learning which takes feedback of the result and improves the model for better search  results.<br> 
+
+- QR Codes(Generation and Editing Dial Codes)<br/>
+Dial code creation require API access. Ask the team to enable access to your api-key. 
 Use APIs to -<br/> ```Create publisher>Generate dial code>Update dial code and publisher>Publish dial code>Link dial code ```
 
 
     <br/>
-- Question : Number of plugins available <br/>
-<u>Answer: The plugins available currently are 66 </u>  
+- Plugins Available <br/>
+The plugins available currently are 66.
 
 
 <br/>
 
-- Question : How to enable a plugin <br/>
-<u>Answer</u>: TBD 
+- Enabling a Plugin <br/>
+TBD 
 
 <br/>
  
-- Question : Development effort involved to develop a plugin <br/>
-<u>Answer</u> :  tbd
+- Development Effort(Plugin Development) <br/>
+tbd
     
     
