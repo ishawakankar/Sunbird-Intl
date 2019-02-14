@@ -10,7 +10,7 @@ Sunbird is a societal learning platform built for cloud/mobile native environmen
 
 - Types of Users:<br/>
     
-          User Roles and Respective Responsibilities
+         				 User Roles and Respective Responsibilities
 
 |  User Role    | Content Creation | Review, Reject , & Publish | Upload Content | Other Actions |
 |-------------------|---------------------|---------------------|-------------------------|-----------------|
