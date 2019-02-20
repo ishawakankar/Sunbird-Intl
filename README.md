@@ -32,7 +32,7 @@ Draft->Review->Live/Unlisted->Flag(optional)```
 ```
 
 <br/><br/>
-- Question : Content authoring in collaboration. How it works? Can two users open the same content at the same time and edit?<br>
+- Content authoring in collaboration. How it works? Can two users open the same content at the same time and edit?<br>
  <u>Answer</u> :  This Feature is still in devlopement Stage there is an Api call to Lock the content (params: userId,resourceId) and after making api call the content is locked for minimum 10 mins. and for content collaboration if two user(A,B) engaged in creating content then A will see his content in draft tab and B's content in collaboration tab.
 
 
